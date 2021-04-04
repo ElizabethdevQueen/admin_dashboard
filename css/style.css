@@ -209,9 +209,30 @@ tbody tr:nth-child(even){
 .badge{
     padding: .2rem 1rem;
     border-radius: 20px;
-    color: var(--main-color);
+    font-weight: 700;
+    font-size: .7rem;
 }
 
-.badge-success{
+.badge.success{
     background: #DEF7EC;
+    color: var(--main-color);
+}
+.badge.warning{
+    background: #f0f6b2;
+    color: orange;
+}
+
+.td-team{
+    display: flex;
+    align-items: center;
+}
+
+.avat-1,
+.avat-3,
+.avat-4{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: 1px solid #efefef;
 }
