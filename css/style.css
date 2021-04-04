@@ -172,7 +172,9 @@ main{
     grid-column-gap: 1.5rem;
 }
 
-.activity-card{
+.activity-card,
+.summary-card,
+.bday-card {
     background: #fff;
     border-radius: 7px;
 }
@@ -233,6 +235,63 @@ tbody tr:nth-child(even){
     height: 38px;
     width: 38px;
     border-radius: 50%;
-    margin-left: -10px;
-    border: 1px solid #efefef;
+    margin-left: -15px;
+    border: 3px solid #efefef;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.avat-1{
+    background-image: url(../images/avatar1.png);
+}
+.avat-3{
+    background-image: url(../images/avatar3.png);
+}
+.avat-4{
+    background-image: url(../images/avatar4.png);
+}
+
+.summary-card{
+    margin-bottom: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.summary-single{
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.summary-single span{
+    font-size: 1.5rem;
+    color: #777;
+    padding-right: 1rem;
+}
+
+.summary-single h5{
+    color: var(--main-color);
+    font-size: 1.1rem;
+    margin-bottom: 0rem !important;
+}
+
+.summary-single small{
+    font-weight: 700;
+    color: var(--text-grey);
+}
+
+.bday-card{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.bday-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid #efefef;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/avatar5.png);
 }
